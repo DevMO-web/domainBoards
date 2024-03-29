@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "productName": "SIKYO",
+        "productPrice": 1200,
+        "mainImage": "Assests\/Images\/Shop\/Products\/surfboard-1\/front.webp",
+        "categoryID": 1
+    },
+    {
+        "id": 3,
+        "productName": "SLAPPER",
+        "productPrice": 1500,
+        "mainImage": "Assests\/Images\/Shop\/Products\/surfboard-3\/front.webp",
+        "categoryID": 1
+    },
+    {
+        "id": 4,
+        "productName": "PLART",
+        "productPrice": 1300,
+        "mainImage": "Assests\/Images\/Shop\/Products\/surfboard-4\/front.webp",
+        "categoryID": 1
+    },
+    {
+        "id": 5,
+        "productName": "AGON",
+        "productPrice": 1200,
+        "mainImage": "Assests\/Images\/Shop\/Products\/surfboard-5\/front.jpeg",
+        "categoryID": 1
+    },
+    {
+        "id": 6,
+        "productName": "NOBLE",
+        "productPrice": 1100,
+        "mainImage": "Assests\/Images\/Shop\/Products\/surfboard-6\/front.webp",
+        "categoryID": 1
+    },
+    {
+        "id": 7,
+        "productName": "VOLIE",
+        "productPrice": 1000,
+        "mainImage": "Assests\/Images\/Shop\/Products\/surfboard-7\/front.jpeg",
+        "categoryID": 1
+    },
+    {
+        "id": 20,
+        "productName": "DOMAIN SLIK",
+        "productPrice": 850,
+        "mainImage": "Assests\/Images\/Shop\/Wetsuits\/wetsuit-1\/main.webp",
+        "categoryID": 2
+    },
+    {
+        "id": 21,
+        "productName": "DOMAIN SLIK",
+        "productPrice": 799,
+        "mainImage": "Assests\/Images\/Shop\/Wetsuits\/wetsuit-2\/main.webp",
+        "categoryID": 2
+    },
+    {
+        "id": 30,
+        "productName": "NEMO",
+        "productPrice": 200,
+        "mainImage": "Assests\/Images\/Shop\/Fins\/fin-1\/main.jpeg",
+        "categoryID": 3
+    },
+    {
+        "id": 31,
+        "productName": "DORY",
+        "productPrice": 400,
+        "mainImage": "Assests\/Images\/Shop\/Fins\/fin-2\/main.jpeg",
+        "categoryID": 3
+    },
+    {
+        "id": 32,
+        "productName": "MARLIN",
+        "productPrice": 500,
+        "mainImage": "Assests\/Images\/Shop\/Fins\/fin-3\/main.jpeg",
+        "categoryID": 3
+    },
+    {
+        "id": 33,
+        "productName": "BRUCE",
+        "productPrice": 450,
+        "mainImage": "Assests\/Images\/Shop\/Fins\/fin-4\/main.jpeg",
+        "categoryID": 3
+    }
+]
