@@ -43,15 +43,15 @@
     },
     {
         "id": 20,
-        "productName": "DOMAIN SLIK",
-        "productPrice": 850,
+        "productName": "WETSUIT",
+        "productPrice": 600,
         "mainImage": "Assests\/Images\/Shop\/Wetsuits\/wetsuit-1\/main.webp",
         "categoryID": 2
     },
     {
         "id": 21,
-        "productName": "DOMAIN SLIK",
-        "productPrice": 799,
+        "productName": "WETSUIT NEW",
+        "productPrice": 610,
         "mainImage": "Assests\/Images\/Shop\/Wetsuits\/wetsuit-2\/main.webp",
         "categoryID": 2
     },

@@ -5,13 +5,13 @@
                <h4>Getting Personal</h4> 
                 <ul>
                     <li>
-                        <a href="/info">about</a>
+                        <a href="/about">about</a>
                     </li>
                     <li>
-                        <a href="/info">contact us</a>
+                        <a href="/contact">contact us</a>
                     </li>
                     <li>
-                        <a href="/info">journal</a>
+                        <a href="/journal">journal</a>
                     </li>
                     <li>
                         <a href="/info">account</a>
@@ -48,5 +48,10 @@
         </div>
     
     </nav>
+    <div class="footer-code-by-container">
+        <div class="footer-code-by-wrapper">
+            <span>Designed and Coded By: <a href="https://www.devinmoats.xyz/">Devin Moats</a></span>
+        </div>
+    </div>
     
 </footer>

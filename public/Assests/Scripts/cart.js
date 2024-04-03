@@ -68,26 +68,69 @@ function grabData(){
                 .map(({productName, productPrice, id, mainImage, categoryID}) =>  {
                  //But Only if the dataName and Category ID are equal
                 if(dataName == categoryID){
-
-                    return `
-                    <div class="item-container">
-                    <div class="shop-card">
-                        <div class="shop-card-image">
-                            <img src="${mainImage}" loading="lazy">
+                    if(productPrice > 599 && productPrice <= 620){
+                        return `
+                        <div class="item-container">
+                        <div class="shop-card">
+                            <div class="shop-card-image">
+                                <img src="${mainImage}" loading="lazy">
+                            </div>
+                            <div class="shop-card-title shop-card-title-version-two">
+                                <h5>${productName}</h5>
+                            </div>
+                            <div class="shop-card-price shop-card-price-version-two">
+                                <p>$${productPrice}</p>
+                            </div>
                         </div>
-                        <div class="shop-card-title">
-                            <h5>${productName}</h5>
+                        <div class="shop-button-container">
+                            <button class="shop-btn shop-btn-version-two"><a href="/product?id=${id}">select</a></button>
                         </div>
-                        <div class="shop-card-price">
-                            <p>$${productPrice}</p>
-                        </div>
+                       
                     </div>
-                    <div class="shop-button-container">
-                        <button class="shop-btn"><a href="/product?id=${id}">select</a></button>
+                        `
+                    }else if (productPrice > 199 && productPrice <= 500) {
+                        // Execute this block of code if the productPrice is between 90 and 100
+                        return `
+                            <div class="item-container">
+                                <div class="shop-card">
+                                    <div class="shop-card-image shop-card-image-version-three">
+                                        <img src="${mainImage}" loading="lazy">
+                                    </div>
+                                    <div class="shop-card-title">
+                                        <h5>${productName}</h5>
+                                      
+                                    </div>
+                                    <div class="shop-card-price">
+                                        <p>$${productPrice}</p>
+                                    </div>
+                                </div>
+                                <div class="shop-button-container">
+                                    <button class="shop-btn shop-btn-version-three"><a href="/product?id=${id}">select</a></button>
+                                </div>
+                            </div>
+                        `;
+                    }else{
+                        return `
+                        <div class="item-container">
+                        <div class="shop-card">
+                            <div class="shop-card-image">
+                                <img src="${mainImage}" loading="lazy">
+                            </div>
+                            <div class="shop-card-title">
+                                <h5>${productName}</h5>
+                            </div>
+                            <div class="shop-card-price">
+                                <p>$${productPrice}</p>
+                            </div>
+                        </div>
+                        <div class="shop-button-container">
+                            <button class="shop-btn"><a href="/product?id=${id}">select</a></button>
+                        </div>
+                       
                     </div>
-                   
-                </div>
-                    `
+                        `
+                    }
+                  
                 }
                  
                 }).join('');
@@ -673,14 +716,14 @@ function itemCount() {
 
     if (countContainer) {
         // If it exists, update it with the total count
-        countContainer.textContent = `Item Total(${getTotal})`;
+        countContainer.textContent = `Item Total (${getTotal})`;
     } else {
         // If it doesn't exist, create a new element
         //This is where I can put the
         const newCountContainer = document.createElement("h3");
         newCountContainer.classList.add('global-shopping-cart-list-quantity-container-h3');
         newCountContainer.setAttribute('data-id', 2023);
-        newCountContainer.textContent = `Item Total(${getTotal})`;
+        newCountContainer.textContent = `Item Total (${getTotal})`;
         div.appendChild(newCountContainer);
     }
 

@@ -18,12 +18,21 @@
                                 <div class="global-nav-sec-dropdown-left"  data-name="nav-containers">
                                 
                                 <p class="global-nav-sec-dropdown-left-title">recent journal entries</p>
-
                                 <div class="global-nav-sec-dropdown-left-image-container">
-                                    <img src="Assests/Images/Journal/Journal-Img-1.jpg" class="nav-sec-dropdown-img">
-                                    <button class="global-nav-sec-dropdown-left-btn">read more</button>
+                                <div class="global-nav-sec-dropdown-left-image-wrapper">
+                                    <img src="Assests/Images/Journal/Journal-Img-3.jpeg" class="nav-sec-dropdown-img">
+                                    <p class="global-nav-sec-dropdown-left-p">Surf Vibes</p>
+                                    
+                                    <a class="global-nav-sec-dropdown-left-btn" href="journalRead?id=3">read more</a>
 
                                 </div>
+                                <div class="global-nav-sec-dropdown-left-image-wrapper">
+                                    <img src="Assests/Images/Journal/Journal-Img-2.jpg" class="nav-sec-dropdown-img">
+                                    <p class="global-nav-sec-dropdown-left-p">Surf 101</p>
+                                    <a class="global-nav-sec-dropdown-left-btn" href="journalRead?id=2">read more</a>
+                                </div>
+                                </div>
+                        
                                 
                                
 
