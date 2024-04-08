@@ -109,7 +109,7 @@
                                       
                                         <h4 id="tab-header-m">Description</h4> 
                                         <p>
-                                   
+                                        <?=$product['productDesc']?>
                                         </p>
                                 </div>
                                 <div 
@@ -122,6 +122,7 @@
                                        class="product-tabpanel-content"
                                         >
                                         <h4 id="tab-header-m">Details</h4> 
+                                        <p> <?=$product['productDetails']?></p>
                                 </div>
                                 <div 
                                        
@@ -132,6 +133,7 @@
                                         class="product-tabpanel-content">
                                     
                                         <h4 id="tab-header-m">Shipping Information</h4> 
+                                        <p> <?=$product['productShipping']?></p>
                                 </div>
                                 
                                 
@@ -157,7 +159,7 @@
             </h2>
             <div class="product-accordion-description" aria-hidden="false">
                 <div>
-                <p><?=htmlspecialchars($product['productDimensions'])?></p>
+                <p><?=$product['productDimensions']?></p>
                 </div>            
         </section>
         <section class="product-accordion-section">
@@ -170,8 +172,7 @@
             </h2>
             <div class="product-accordion-description" aria-hidden="true">
                 <div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, eaque consectetur perspiciatis distinctio odio excepturi earum inventore voluptatem odit ea quae optio nemo quasi repudiandae fugiat, rem cum recusandae repellat!</p>
-
+                <p> <?=$product['productOverview']?></p>
                 </div>           
         </section>
         <section class="product-accordion-section">
@@ -184,15 +185,11 @@
             </h2>
             <div class="product-accordion-description" aria-hidden="true">
                 <div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, eaque consectetur perspiciatis distinctio odio excepturi earum inventore voluptatem odit ea quae optio nemo quasi repudiandae fugiat, rem cum recusandae repellat!</p>
-                    <br>
-                    <br>
-                    <br>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque corporis aliquid doloribus similique quam cupiditate voluptatem illum voluptas quia reiciendis! Nemo nihil beatae assumenda sint quae delectus et rem quis.</p>
+                <p> <?=$product['productGuide']?></p>
                 </div>
             </div>
         </section>
-         <section class="product-accordion-section">
+         <!--<section class="product-accordion-section">
             <h2 class="product-accordion-heading">
                 <button 
                     class="product-accordion-btn-trigger" 
@@ -209,7 +206,7 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque corporis aliquid doloribus similique quam cupiditate voluptatem illum voluptas quia reiciendis! Nemo nihil beatae assumenda sint quae delectus et rem quis.</p>
                 </div>
             </div>
-        </section>
+        </section>-->
     </div>
         
        

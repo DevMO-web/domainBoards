@@ -53,7 +53,39 @@ function transitionAfterPageLoad() {
     });
   
  //=============END: Header Buttons=============
+
+
+
+ //=============Start: Nav -More=============
+
+ const moreButton = document.querySelector('.mobile-nav-btn')
+ const moreContent = document.querySelector('.mobile-nav-more-container')
+  
+ moreButton.addEventListener('click', toggleMore)
+
  
+ 
+ 
+ function toggleMore() {
+  const btnChecker = moreButton.getAttribute('data-active');
+
+  if (btnChecker === 'false') { // Compare to string 'false'
+      moreButton.setAttribute('data-active', 'true');
+      moreContent.setAttribute("data-hidden", "false");
+
+      let changedResult =  moreButton.getAttribute('data-active');
+      console.log(`Menu Opened: ${changedResult}`);
+  } else {
+      moreButton.setAttribute('data-active', 'false');
+      moreContent.setAttribute("data-hidden", "true");
+
+      let changedResult =  moreButton.getAttribute('data-active');
+      console.log(`Menu Opened: ${changedResult}`);
+  }
+}
+
+ //=============End: Nav -More=============
+
  
  //=============Start: Accordian=============
 

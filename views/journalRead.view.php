@@ -78,6 +78,7 @@
             </div>
             
         </section>
+        <!--
         <section class="blog-more-journals-section">
             <div class="blog-more-journals-container">
                 <h2>More Journals For You</h2>
@@ -132,7 +133,7 @@
             </div>
 
         </section>
-       
+-->
         
 
        

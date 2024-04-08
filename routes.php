@@ -10,7 +10,7 @@ $uri = parse_url($_SERVER['REQUEST_URI'])['path'];
 $routes = [
     '/' => 'controllers/home.php',
     '/shop' => 'controllers/shop.php',
-    '/about' => 'controllers/about.php',
+    '/info' => 'controllers/about.php',
     '/journal' => 'controllers/journal.php',
     '/product' => 'controllers/product.php',
     '/contact' => 'controllers/contact.php',
@@ -23,7 +23,8 @@ $routes = [
     '/edit' => 'controllers/edit.php',
     '/update' => 'controllers/update.php',
     '/delete' => 'controllers/delete.php',
-    '/insert-data' => 'controllers/insert-data.php'
+    '/insert-data' => 'controllers/insert-data.php',
+    '/limited' => 'controllers/limited.php'
 ];
 
 

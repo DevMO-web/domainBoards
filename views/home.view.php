@@ -17,7 +17,7 @@
                     <a href="/adminzone">
                     <img 
                     class="global-logo"
-                    src="/Assests/Images/Brand/Logo.svg" 
+                    src="/Assests/Images/Brand/Logo-R.svg" 
                     alt="Domain Boards logo with a bald man sitting in a lotus position awaiting for you to meet the waves">
                     </a>
                     

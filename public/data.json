@@ -43,14 +43,14 @@
     },
     {
         "id": 20,
-        "productName": "WETSUIT",
+        "productName": "SWINTER SUIT",
         "productPrice": 600,
         "mainImage": "Assests\/Images\/Shop\/Wetsuits\/wetsuit-1\/main.webp",
         "categoryID": 2
     },
     {
         "id": 21,
-        "productName": "WETSUIT NEW",
+        "productName": "SWINTER 2.0 SUIT",
         "productPrice": 610,
         "mainImage": "Assests\/Images\/Shop\/Wetsuits\/wetsuit-2\/main.webp",
         "categoryID": 2
@@ -82,5 +82,152 @@
         "productPrice": 450,
         "mainImage": "Assests\/Images\/Shop\/Fins\/fin-4\/main.jpeg",
         "categoryID": 3
+    },
+    {
+        "id": 40,
+        "productName": "WET XTREME",
+        "productPrice": 600,
+        "mainImage": "Assests\/Images\/Shop\/Wetsuits\/wetsuit-3\/main.webp",
+        "categoryID": 2
+    },
+    {
+        "id": 43,
+        "productName": "WETSUIT",
+        "productPrice": 600,
+        "mainImage": "Assests\/Images\/Shop\/Wetsuits\/wetsuit-6\/main.webp",
+        "categoryID": 2
+    },
+    {
+        "id": 44,
+        "productName": "WETSUIT",
+        "productPrice": 605,
+        "mainImage": "Assests\/Images\/Shop\/Wetsuits\/wetsuit-7\/main.webp",
+        "categoryID": 2
+    },
+    {
+        "id": 46,
+        "productName": "WETTER",
+        "productPrice": 610,
+        "mainImage": "Assests\/Images\/Shop\/Wetsuits\/wetsuit-8\/main.webp",
+        "categoryID": 2
+    },
+    {
+        "id": 47,
+        "productName": "GILL",
+        "productPrice": 475,
+        "mainImage": "Assests\/Images\/Shop\/Fins\/fin-5\/main.jpeg",
+        "categoryID": 3
+    },
+    {
+        "id": 48,
+        "productName": "CRUSH",
+        "productPrice": 475,
+        "mainImage": "Assests\/Images\/Shop\/Fins\/fin-6\/main.jpeg",
+        "categoryID": 3
+    },
+    {
+        "id": 49,
+        "productName": "PEARL",
+        "productPrice": 425,
+        "mainImage": "Assests\/Images\/Shop\/Fins\/fin-7\/main.jpeg",
+        "categoryID": 3
+    },
+    {
+        "id": 50,
+        "productName": "BLOAT",
+        "productPrice": 450,
+        "mainImage": "Assests\/Images\/Shop\/Fins\/fin-8\/main.jpeg",
+        "categoryID": 3
+    },
+    {
+        "id": 51,
+        "productName": "SHELDON",
+        "productPrice": 475,
+        "mainImage": "Assests\/Images\/Shop\/Fins\/fin-9\/main.jpeg",
+        "categoryID": 3
+    },
+    {
+        "id": 52,
+        "productName": "GURGLE",
+        "productPrice": 460,
+        "mainImage": "Assests\/Images\/Shop\/Fins\/fin-10\/main.jpeg",
+        "categoryID": 3
+    },
+    {
+        "id": 53,
+        "productName": "REGGIE",
+        "productPrice": 1200,
+        "mainImage": "Assests\/Images\/Shop\/Products\/surfboard-8\/front.jpeg",
+        "categoryID": 1
+    },
+    {
+        "id": 54,
+        "productName": "BECKHAM",
+        "productPrice": 1100,
+        "mainImage": "Assests\/Images\/Shop\/Products\/surfboard-9\/front.jpeg",
+        "categoryID": 1
+    },
+    {
+        "id": 55,
+        "productName": "DELTA",
+        "productPrice": 1050,
+        "mainImage": "Assests\/Images\/Shop\/Products\/surfboard-10\/front.webp",
+        "categoryID": 1
+    },
+    {
+        "id": 56,
+        "productName": "SANDY",
+        "productPrice": 1100,
+        "mainImage": "Assests\/Images\/Shop\/Products\/surfboard-11\/front.webp",
+        "categoryID": 1
+    },
+    {
+        "id": 57,
+        "productName": "NEPTUNE",
+        "productPrice": 1050,
+        "mainImage": "Assests\/Images\/Shop\/Products\/surfboard-12\/front.webp",
+        "categoryID": 1
+    },
+    {
+        "id": 58,
+        "productName": "MAYA",
+        "productPrice": 1100,
+        "mainImage": "Assests\/Images\/Shop\/Products\/surfboard-13\/front.webp",
+        "categoryID": 1
+    },
+    {
+        "id": 59,
+        "productName": "GERRY",
+        "productPrice": 1400,
+        "mainImage": "Assests\/Images\/Shop\/Products\/surfboard-14\/front.webp",
+        "categoryID": 1
+    },
+    {
+        "id": 61,
+        "productName": "T BAG",
+        "productPrice": 601,
+        "mainImage": "Assests\/Images\/Shop\/Gear\/Gear-2\/main.jpeg",
+        "categoryID": 4
+    },
+    {
+        "id": 62,
+        "productName": "D BAG",
+        "productPrice": 605,
+        "mainImage": "Assests\/Images\/Shop\/Gear\/Gear-1\/main.png",
+        "categoryID": 4
+    },
+    {
+        "id": 63,
+        "productName": "L BAG",
+        "productPrice": 601,
+        "mainImage": "Assests\/Images\/Shop\/Gear\/Gear-3\/main.jpeg",
+        "categoryID": 4
+    },
+    {
+        "id": 64,
+        "productName": "S BAG",
+        "productPrice": 604,
+        "mainImage": "Assests\/Images\/Shop\/Gear\/Gear-4\/main.jpeg",
+        "categoryID": 4
     }
 ]
