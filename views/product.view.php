@@ -107,8 +107,8 @@
                                         class="product-tabpanel-content"
                                        >
                                       
-                                        <h4 id="tab-header-m">Description</h4> 
-                                        <p>
+                                        <h4 id="tab-header-m" class="h-product-tab-wrapper">Description</h4> 
+                                        <p class="product-tab-wrapper">
                                         <?=$product['productDesc']?>
                                         </p>
                                 </div>
@@ -121,8 +121,8 @@
                                        aria-hidden="true"
                                        class="product-tabpanel-content"
                                         >
-                                        <h4 id="tab-header-m">Details</h4> 
-                                        <p> <?=$product['productDetails']?></p>
+                                        <h4 id="tab-header-m" class="h-product-tab-wrapper">Details</h4> 
+                                        <p class="product-tab-wrapper"> <?=$product['productDetails']?></p>
                                 </div>
                                 <div 
                                        
@@ -132,8 +132,8 @@
                                         aria-hidden="true"
                                         class="product-tabpanel-content">
                                     
-                                        <h4 id="tab-header-m">Shipping Information</h4> 
-                                        <p> <?=$product['productShipping']?></p>
+                                        <h4 id="tab-header-m" class="h-product-tab-wrapper">Shipping Information</h4> 
+                                        <p class="product-tab-wrapper"> <?=$product['productShipping']?></p>
                                 </div>
                                 
                                 
@@ -172,7 +172,8 @@
             </h2>
             <div class="product-accordion-description" aria-hidden="true">
                 <div>
-                <p> <?=$product['productOverview']?></p>
+                    <img src="<?=$product['productOverview']?>" alt="">
+               
                 </div>           
         </section>
         <section class="product-accordion-section">

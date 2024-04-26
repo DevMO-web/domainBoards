@@ -144,6 +144,21 @@ $journal = [
         'imagePath' => 'Assests/Images/Journal/Journal-Img-6.jpg',
         'description' => ''
     ],
+    [
+        'id'=> 7,
+        'imagePath' => 'Assests/Images/Journal/Journal-Img-7.jpeg',
+        'description' => ''
+    ],
+    [
+        'id'=> 8,
+        'imagePath' => 'Assests/Images/Journal/Journal-Img-8.png',
+        'description' => ''
+    ],
+    [
+        'id'=> 9,
+        'imagePath' => 'Assests/Images/Journal/Journal-Img-9.jpeg',
+        'description' => ''
+    ],
 ];
 
 

@@ -10,19 +10,19 @@
         <section class="limited-product-container">
             <div class="limited-product-wrapper">
                 <div class="limited-product--img-container limited-containers">
-                   <img src="Assests/Images/HomePage/domainBoardPlain.png" alt="">
+                   <img src="<?=$limited['sideImageOne']?>" alt="">
                 </div>
                 <div class="limited-product--product-titles-container limited-containers">
                 <div class="product-text-wrapper">
                     <div class="product-text-title limited">
                         <hgroup class="product-h-group">
-                            <h1>Limited Edition </h1>
-                            <h2>Tasmo</h2>
-                            <p class="product-price">$900</p>
+                            <h1><?=$limited['productCollection']?></h1>
+                            <h2><?=$limited['productName']?> </h2>
+                            <p class="product-price">$<?=$limited['productPrice']?> </p>
                             
                         </hgroup>
                         <div class="product-btn-container">
-                            <button class="add product-btn " data-id="">Add to Cart</button>
+                            <button class="add product-btn " data-id="<?=$limited['id']?>">Add to Cart</button>
                         </div>
                         
                     </div>

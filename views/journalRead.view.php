@@ -35,9 +35,7 @@
                 
                 <div class="blog-body-text">
                     <h3>DAY ONE</h3>
-              <p>
-                WOW! I'm stunned. Someone is offering a smidgen of their quality time to go through my portfolio demonstration. Well…you can stop now. It's odd and weird. Just take a glimpse back at the word usage of “smidgen” above. That should have been a clear sign hopefully. If, however,  you want to continue, I'm more than happy to write you a story to fill some white space up and maybe bring life to this page. Let's Begin.
-              </p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio id, eum, adipisci ullam ad dolor error veritatis asperiores a reprehenderit atque doloribus, quis nesciunt esse quas velit nulla neque laborum!</p>
                     </p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -140,6 +138,7 @@
         
     </main>
     <?php require('partials/footer.php') ?>
-    <script src="/Scripts/header-drawers.js"></script>
+    <script src="Assests/Scripts/main.js"></script>
+    <script src="Assests/Scripts/cart.js"></script>
 </body>
 </html>

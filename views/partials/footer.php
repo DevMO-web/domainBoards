@@ -5,7 +5,7 @@
                <h4>Getting Personal</h4> 
                 <ul>
                     <li>
-                        <a href="/about">about</a>
+                        <a href="/info">about</a>
                     </li>
                     <li>
                         <a href="/contact">contact us</a>

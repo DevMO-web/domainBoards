@@ -2,7 +2,7 @@
     {
         "id": 1,
         "productName": "SIKYO",
-        "productPrice": 1200,
+        "productPrice": 1300,
         "mainImage": "Assests\/Images\/Shop\/Products\/surfboard-1\/front.webp",
         "categoryID": 1
     },
@@ -11,13 +11,6 @@
         "productName": "SLAPPER",
         "productPrice": 1500,
         "mainImage": "Assests\/Images\/Shop\/Products\/surfboard-3\/front.webp",
-        "categoryID": 1
-    },
-    {
-        "id": 4,
-        "productName": "PLART",
-        "productPrice": 1300,
-        "mainImage": "Assests\/Images\/Shop\/Products\/surfboard-4\/front.webp",
         "categoryID": 1
     },
     {
@@ -229,5 +222,47 @@
         "productPrice": 604,
         "mainImage": "Assests\/Images\/Shop\/Gear\/Gear-4\/main.jpeg",
         "categoryID": 4
+    },
+    {
+        "id": 65,
+        "productName": "ZEUS",
+        "productPrice": 1000,
+        "mainImage": "Assests\/Images\/Limited\/limited-1\/home.png",
+        "categoryID": 5
+    },
+    {
+        "id": 66,
+        "productName": "FLYZ",
+        "productPrice": 1500,
+        "mainImage": "Assests\/Images\/Limited\/limited-2\/home.png",
+        "categoryID": 5
+    },
+    {
+        "id": 67,
+        "productName": "PEARL",
+        "productPrice": 1200,
+        "mainImage": "Assests\/Images\/Limited\/limited-3\/home.png",
+        "categoryID": 5
+    },
+    {
+        "id": 68,
+        "productName": "SWISH",
+        "productPrice": 1100,
+        "mainImage": "Assests\/Images\/Limited\/limited-4\/home.png",
+        "categoryID": 5
+    },
+    {
+        "id": 69,
+        "productName": "YSTAR",
+        "productPrice": 1000,
+        "mainImage": "Assests\/Images\/Limited\/limited-5\/home.png",
+        "categoryID": 5
+    },
+    {
+        "id": 70,
+        "productName": "LANDR",
+        "productPrice": 1200,
+        "mainImage": "Assests\/Images\/Limited\/limited-6\/home.png",
+        "categoryID": 5
     }
 ]

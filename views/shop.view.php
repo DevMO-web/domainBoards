@@ -10,7 +10,7 @@
             <div class="shop-text-container">
                 <h1>view our limited collections</h1>
                 <div class="shop-small-hero-btn">
-                    <button class ="add">check it</button>
+                    <a href="/limited?id=65"class="add">check it</a>
                 </div>
                 
             </div>

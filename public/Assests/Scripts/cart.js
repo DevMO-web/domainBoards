@@ -450,8 +450,8 @@ class Cart{
     cartTable(){
         let activeCart = this.cartItems
         const tableTest = document.querySelector("#cart-body")
-        const span = document.querySelector(".testd")
-        const footer = document.querySelector(".cart-footer")
+        const span = document.querySelector(".order-top")
+        const footer = document.querySelector(".order-footer-container")
 
         if(tableTest == null){
             console.log("NO")
@@ -490,15 +490,21 @@ class Cart{
             const grandTotal = totalPrice + shipping;
 
 const totalCalc = `
-    <tr class="subtotal">
-        <td colspan="4">Subtotal: $${totalPrice.toFixed(2)}</td>
-    </tr>
-    <tr class="shipping">
-        <td colspan="4">Shipping: $${shipping.toFixed(2)}</td>
-    </tr>
-    <tr class="grandtotal">
-        <td colspan="4">Grand Total: $${grandTotal.toFixed(2)}</td>
-    </tr>
+
+<div class="order-footer-wrapper">
+<div class="subtotal-container">
+    <span class="footer-heading">Subtotal: </span>
+    <span>$${totalPrice.toFixed(2)}</span>
+</div>
+<div class="shipping-containerr">
+<span class="footer-heading">Shipping: </span>
+    <span>$${shipping.toFixed(2)}</span>
+</div>
+<div class="total-container">
+    <span class="footer-heading footer-grand-total">Grand Total: </span>
+    <span>$${grandTotal.toFixed(2)}</span>
+</div>
+</div>
 `;      
         
             

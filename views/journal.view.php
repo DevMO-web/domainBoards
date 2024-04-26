@@ -90,6 +90,8 @@
         
     </main>
     <?php require('partials/footer.php') ?>
-    <script src="Assests/Scripts/headerButtons.js"></script>
+
+    <script src="Assests/Scripts/main.js"></script>
+    <script src="Assests/Scripts/cart.js"></script>
 </body>
 </html>

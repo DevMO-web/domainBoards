@@ -4,7 +4,10 @@
     <?php require('partials/head.php')?>
 </head>
 <body id="body" class="no-transition edit-page">
-<h1 class="edit-main-title">EDIT PRODUCT</h1>
+<div class="top-edit-headers">
+    <button><a href="/adminzone">exit</a></button>
+    <h1 class="edit-main-title">EDIT PRODUCT</h1>
+</div>
     <main class="edit-main">
     
         <section class="product-section">
@@ -46,11 +49,11 @@
                         <hgroup class="product-h-group">
                             <h1 class="edit-text-headers">Product Details</h1>
                             <h2>Collection</h2>
-                            <input class="edit-text-containers-top" type="text" name="productCollection" placeholder="<?=$product['productCollection']?>" value="" >
+                            <input class="edit-text-containers-top" type="text" name="productCollection" placeholder="" value="<?=$product['productCollection']?>" >
                             <h2>Product Name</h2>
-                            <input class="edit-text-containers-top" type="text" name="productName" placeholder="<?=$product['productName']?>" value="">
+                            <input class="edit-text-containers-top" type="text" name="productName" placeholder="" value="<?=$product['productName']?>">
                             <h2>Price</h2>
-                            <input class="edit-text-containers-top"  data-specific="price" type="number" name="productPrice" placeholder="<?=$product['productPrice']?>" value="">
+                            <input class="edit-text-containers-top"  data-specific="price" type="number" name="productPrice" placeholder="" value="<?=$product['productPrice']?>">
                             
                         </hgroup>
                         
@@ -62,11 +65,11 @@
                         <hgroup class="product-h-group">
                             <h1 class="edit-text-headers">Product Information</h1>
                             <h2>Description</h2>
-                            <textarea class="edit-text-containers-middle" type="text" name="productDesc" placeholder="<?=$product['productDesc']?>" value=""></textarea>
-                            <h2>Shipping</h2>
-                            <textarea class="edit-text-containers-middle" type="text" name="productShipping" placeholder="<?=$product['productShipping']?>" value=""></textarea>
+                            <textarea class="edit-text-containers-middle" type="text" name="productDesc" placeholder="" value=""><?=$product['productDesc']?></textarea>
                             <h2>Details</h2>
-                            <textarea class="edit-text-containers-middle"  data-specific="productDetails" type="number" name="productDetails" placeholder="<?=$product['productDetails']?>" value=""></textarea>
+                            <textarea class="edit-text-containers-middle"  data-specific="productDetails" type="number" name="productDetails" placeholder="" value=""><?=$product['productDetails']?></textarea>
+                            <h2>Shipping</h2>
+                            <textarea class="edit-text-containers-middle" type="text" name="productShipping" placeholder="" value=""><?=$product['productShipping']?></textarea>
                             
                         </hgroup>
                         
@@ -90,11 +93,11 @@
                         <hgroup class="product-h-group">
                             <h1 class="edit-text-headers">Product Information</h1>
                             <h2>Dimensions</h2>
-                            <textarea class="edit-text-containers-bottom" name="productDimensions" placeholder="<?=$product['productDimensions']?>"></textarea>
+                            <textarea class="edit-text-containers-bottom" name="productDimensions" placeholder=""><?=$product['productDimensions']?></textarea>
                             <h2>Overview</h2>
-                            <textarea class="edit-text-containers-bottom" type="text" name="productOverview" placeholder="<?=$product['productName']?>" value=""></textarea>
+                            <textarea class="edit-text-containers-bottom" type="text" name="productOverview" placeholder="" value=""><?=$product['productOverview']?></textarea>
                             <h2>Build Guide</h2>
-                            <textarea  class="edit-text-containers-bottom"  data-specific="productGuide" type="number" name="productGuide" placeholder="<?=$product['productPrice']?>" value=""></textarea>
+                            <textarea  class="edit-text-containers-bottom"  data-specific="productGuide" type="number" name="productGuide" placeholder="" value=""><?=$product['productGuide']?></textarea>
                             
                         </hgroup>
             </div>

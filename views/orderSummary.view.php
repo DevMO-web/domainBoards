@@ -5,7 +5,7 @@
 <?php require('partials/header.php')?>
    <main>
     <section class="shopping-cart-page">
-        <hgroup class="testd">
+        <hgroup class="order-top">
         
         </hgroup>
     </section>
@@ -46,11 +46,13 @@
 !-->
                 
                
-                
-                <tfoot class="cart-footer" colspan="5">
-                  
-                </tfoot>
+              
+
+               
             </table>
+            <div class="order-footer-container">
+                  
+                </div>
     </section>
     
     

@@ -15,26 +15,26 @@
                             <button class="mobile-nav-btn" data-active="false">more</button>
                             <i class="fa-solid fa-chevron-right"></i>
                             <ul class="mobile-nav-more-container" data-hidden="true">
-                                <li>About
+                                <li class="mobile-nav-about mobile-nav-heading">About
                                 <ul>
-                                    <li><a href="/about"class="global-nav-sec-links">our story</a></li>
+                                    <li><a href="/info"class="global-nav-sec-links">our story</a></li>
                                     <li><a href="/contact"class="global-nav-sec-links">contact us</a></li>
                                     <li><a href="/journal"class="global-nav-sec-links">journal</a></li>
                                 </ul>
                                 </li>
-                                <li>Shop
+                                <li class="mobile-nav-heading">Shop
                                 <ul>
-                                        <li><a href="#"class="global-nav-sec-links">boards</a></li>
-                                        <li><a href="#"class="global-nav-sec-links">wetsuits</a></li>
-                                        <li><a href="#"class="global-nav-sec-links">gear</a></li>
-                                        <li><a href="#"class="global-nav-sec-links">fins</a></li>
+                                        <li><a href="/shop#testing-a"class="global-nav-sec-links">boards</a></li>
+                                        <li><a href="/shop#testing-b"class="global-nav-sec-links">wetsuits</a></li>
+                                        <li><a href="/shop#testing-c"class="global-nav-sec-links">gear</a></li>
+                                        <li><a href="/shop#testing-d"class="global-nav-sec-links">fins</a></li>
                                 </ul>
                                 </li>
-                                <li>Info
+                                <li class="mobile-nav-heading">Info
                                 <ul>
-                                         <li><a href="#"class="global-nav-sec-links">shipping</a></li>
-                                        <li><a href="#"class="global-nav-sec-links">location</a></li>
-                                        <li><a href="#"class="global-nav-sec-links">account</a></li>
+                                         <li><a href="/info"class="global-nav-sec-links">shipping</a></li>
+                                        <li><a href="/info"class="global-nav-sec-links">location</a></li>
+                                        <li><a href="/limited"class="global-nav-sec-links">limited</a></li>
                                 </ul>
                                 </li>
                             </ul>
@@ -95,7 +95,7 @@
                                     <ul class="global-nav-sec-link-list" data-name="sec-nav-info">
                                         <li><a href="/info"class="global-nav-sec-links">shipping</a></li>
                                         <li><a href="/info"class="global-nav-sec-links">location</a></li>
-                                        <li><a href="/limited"class="global-nav-sec-links">limited</a></li>
+                                        <li><a href="/limited?id=65"class="global-nav-sec-links">limited</a></li>
                                         
                                     </ul>   
                                     </li>
@@ -108,7 +108,7 @@
                                 <div class="global-nav-sec-dropdown-right-wrapper">
                                 <p class="right-pp">Special Boards on Sale</p>
                                 <img class="nav-board" src="Assests/Images/HomePage/domainBoardPlain.png">
-                                <button class="global-nav-sec-dropdown-right-btn">browse collection</button>
+                                <a class="global-nav-sec-dropdown-right-btn" href="/limited?id=65">browse collection</a>
                             </div>
                                 </div>
                           

@@ -21,12 +21,8 @@ $products = $db->query("SELECT id, productName, productPrice, mainImage, categor
 
 
 
+
 $test = json_encode($products,  JSON_PRETTY_PRINT);
-
-
-
-
-
 file_put_contents("data.json" ,$test);
 // Send JSON response
 /*

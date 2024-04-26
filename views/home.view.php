@@ -77,64 +77,21 @@
         <div class="home-limited-edition-list-container">
            
             <ul class="home-limited-edition-list">
+            <?php
+            foreach($limited as $limitedProduct) : ?>
                 <li class="home-limited-edition-list-item">
-                    
-                    <div class="home-limited-edition-list-card">
-                        <div class="home-limited-edition-list-card-image">
-                        <img src=<?=imagePath($home,6)?> class="limited">
-                        </div> 
-                        <div class="home-limited-edition-list-card-text">
-                            <h3>THE ZEUS</h3> 
-                            <button class="add"data-id="1">select</button>
-                        </div> 
-                    </div>
-                </li>
-                <li class="home-limited-edition-list-item">
-                    <div class="home-limited-edition-list-card">
-                        <div class="home-limited-edition-list-card-image">
-                        <img src="Assests/Images/HomePage/LimitedEditionBoardTwo.png" class="limited">
-                        </div> 
-                        <div class="home-limited-edition-list-card-text">
-                            <h3>THE ZEUS</h3> 
-                            <button class="add"data-id="2">select</button>
-                        </div> 
-                    </div>
-                </li>
-                <li class="home-limited-edition-list-item">
-                    <div class="home-limited-edition-list-card">
-                        <div class="home-limited-edition-list-card-image">
-                        <img src="Assests/Images/HomePage/LimitedEditionThree.png" class="limited">
-                        </div> 
-                        <div class="home-limited-edition-list-card-text">
-                            <h3>THE ZEUS</h3> 
-                            <button class="add"data-id="3">select</button>
-                        </div> 
-                    </div>
-                </li>
-                <li class="home-limited-edition-list-item">
-                    <div class="home-limited-edition-list-card">
-                        <div class="home-limited-edition-list-card-image">
-                        <img src=<?=imagePath($home,6)?> class="limited">
-                        </div> 
-                        <div class="home-limited-edition-list-card-text">
-                            <h3>THE ZEUS</h3> 
-                            <button class="add"data-id="4">select</button>
-                        </div> 
-                    </div>
-                </li>
-                <li class="home-limited-edition-list-item">
-                    <div class="home-limited-edition-list-card">
-                        <div class="home-limited-edition-list-card-image">
-                        <img src=<?=imagePath($home,6)?> class="limited">
-                        </div> 
-                        <div class="home-limited-edition-list-card-text">
-                            <h3>THE ZEUS</h3> 
-                            <button>select</button>
-                        </div> 
-                    </div>
-                </li>
                 
-                
+                    <div class="home-limited-edition-list-card">
+                        <div class="home-limited-edition-list-card-image">
+                        <img src=<?=$limitedProduct['mainImage']?> class="limited">
+                        </div> 
+                        <div class="home-limited-edition-list-card-text">
+                            <h3><?=$limitedProduct['productName']?></h3> 
+                            <a class="add"data-id="1" href="/limited?id=<?=$limitedProduct['id']?>">select</a>
+                        </div> 
+                    </div>
+                </li>
+                <?php endforeach; ?>   
             </ul>
        
     </section>
@@ -190,9 +147,14 @@
                         <div class="home-about-top-description-container">
                             <h2>ABOUT US</h2>
                             <hr class="home-about">
-                            <p>the gang explores the islands of hawaii in search of some great waves and something crazy happens to the boards. They begin flying into orbit</p>
+                            <p>Get ready to ride the waves with our Domain style. 
+                                A way of riding that is unmatched. Our boards are 
+                                dipped in the tears of poseidon and will deliver 
+                                maximum energetic pulses to your system. </p>
+                                <br>
+                                <p>We’ve been a core surf shop of the sandy beaches for Wilmington since yesterday. </p>
                             <div class="home-about-btn-container">
-                                <button class="home-about-btn">Learn More<i class="fa-solid fa-chevron-right about-chevron" id="chevron-2"></i></button>
+                                <a class="home-about-btn" href="/info">Learn More</a>
                                 
                             </div>
                            
